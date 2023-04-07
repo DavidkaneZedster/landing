@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Open+Sans&family=Sora:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <title>KRRRRRRRR</title>
+  </head>
+  <body>
+    <div class="black">
+      <div class="container">
+        <header class="header">
+          <div class="header__top">
+            <div class="header__info">
+              <a href="/">
+                <img src="assets/common/icon/logo.svg" alt="logo"
+              /></a>
+              <h1 class="name">Kristina</h1>
+              <p>веб-разработчик</p>
+            </div>
+            <div>
+              <a class="button__ui" href="#contacts">Связаться</a>
+            </div>
+          </div>
+          <div class="header__bottom">
+            <ul class="menu__list">
+              <li><a class="menu__link" href="/">Главная</a></li>
+              <li><a class="menu__link" href="#skills">Навыки</a></li>
+              <!-- Ссылки закомментированы в связи с тем,
+              что на дизайне для них не предусмотрены блоки -->
+              <!-- <li><a class="menu__link" href="#">Опыт</a></li> -->
+              <li><a class="menu__link" href="#works">Работы</a></li>
+              <li><a class="menu__link" href="#contacts">Контакты</a></li>
+              <!-- <li><a class="menu__link" href="#">Блог</a></li> -->
+            </ul>
+          </div>
+        </header>
+        <main>
+          <div class="hero">
+            <h1 class="hero__title">
+              Lorem ipsum dolor sit
+              <span class="hero__title_element">amet,</span> consectetur.
+            </h1>
+            <p class="hero__subtitle">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id
+              tortor, id consequat. Ipsum mauris duis turpis egestas nulla
+              cursus aliquet pretium.
+            </p>
+            <a class="button__ui" href="#">Работы</a>
+          </div>
+        </main>
+      </div>
+    </div>
+    <div class="accent">
+      <div class="container">
+        <div class="skills" id="skills">
+          <h1 class="title__ui skills__title">Навыки</h1>
+          <p class="skills__subtitle">HTML, CSS, JS</p>
+        </div>
+      </div>
+    </div>
+    <div class="black">
+      <div class="container">
+        <div class="works" id="works">
+          <div class="works__heading">
+            <h1 class="title__ui">Работы</h1>
+            <p class="works__heading_subtitle">
+              Ниже вы можете ознакомиться с моими недавними работами
+            </p>
+          </div>
+          <div class="works__examples">
+            <div class="work__item">
+              <img
+                src="assets/common/image/firstWorkImage.png"
+                alt="firstWorkImage"
+              />
+              <div class="work__example">
+                <h2 class="title__ui work__example_title">Example project</h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Bibendum purus velit, gravida fusce elit at et arcu. Non arcu
+                  nisi dui morbi at in in praesent posuere. Vitae tellus massa
+                  odio facilisi aliquet semper sit nisi ornare.
+                </p>
+                <a class="button__ui" href="#">Let’s talk</a>
+              </div>
+            </div>
+            <div class="work__item">
+              <img
+                src="assets/common/image/secondWorkImage.png"
+                alt="secondWorkImage"
+              />
+              <div class="work__example">
+                <h2 class="title__ui work__example_title">Example project</h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Bibendum purus velit, gravida fusce elit at et arcu. Non arcu
+                  nisi dui morbi at in in praesent posuere. Vitae tellus massa
+                  odio facilisi aliquet semper sit nisi ornare.
+                </p>
+                <a class="button__ui" href="#">Let’s talk</a>
+              </div>
+            </div>
+          </div>
+          <div class="more">
+            <p>Больше</p>
+            <img src="assets/common/icon/arrow.svg" alt="arrow" />
+          </div>
+        </div>
+        <div class="contacts" id="contacts">
+          <h1 class="title__ui contacts__title">Связаться со мной</h1>
+          <div class="contacts__block">
+            <form class="contacts__form">
+              <input
+                class="contacts__form_input"
+                type="text"
+                placeholder="Имя"
+              />
+              <input
+                class="contacts__form_input"
+                type="email"
+                placeholder="Email"
+              />
+              <textarea
+                class="contacts__form_textarea"
+                name="message"
+                placeholder="Сообщение"
+              ></textarea>
+              <button class="contacts__form_button" type="button">
+                Отправить сообщение
+              </button>
+            </form>
+            <div class="contacts__info">
+              <div class="contact__info_block">
+                <img
+                  class="contact__info_icon"
+                  src="assets/common/icon/shape.svg"
+                  alt="shape"
+                />
+                <div class="contact__text">
+                  <h5 class="contact__text_title">Адрес</h5>
+                  <p class="contact__text_subtitle">664003, ул. Новая, г.</p>
+                </div>
+              </div>
+              <div class="contact__info_block">
+                <img
+                  class="contact__info_icon"
+                  src="assets/common/icon/phone.svg"
+                  alt="phone"
+                />
+                <div class="contact__text">
+                  <h5 class="contact__text_title">Телефон</h5>
+                  <p class="contact__text_subtitle">(501) 414-1541</p>
+                </div>
+              </div>
+              <div class="contact__info_block">
+                <img
+                  class="contact__info_icon"
+                  src="assets/common/icon/mail.svg"
+                  alt="mail"
+                />
+                <div class="contact__text">
+                  <h5 class="contact__text_title">E-Mail</h5>
+                  <p class="contact__text_subtitle">admin@gmail.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="accent">
+      <div class="container">
+        <footer class="footer">
+          <h1 class="footer__title">Kristina</h1>
+          <p class="footer__rights">
+            Этот сайт был создан Кристюшей. All rights reserved © 2023
+          </p>
+          <div class="footer__icons">
+            <img src="assets/common/icon/twitter.svg" alt="twitter" />
+            <img src="assets/common/icon/instagram.svg" alt="instagram" />
+            <img src="assets/common/icon/mailWhite.svg" alt="mail" />
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>

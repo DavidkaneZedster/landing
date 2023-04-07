@@ -1,0 +1,258 @@
+/* uses classes */
+
+.button__ui {
+    background-color: #FFFFFF;
+    padding: 15px 48px;
+    border-radius: 80px;
+    color: #000000;
+    width: fit-content;
+}
+
+.title__ui {
+    font-family: 'Sora', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    border-bottom: 4px solid #1C5BFF;
+    padding-bottom: 8px;
+    color: #FFFFFF;
+}
+
+/* header */
+
+.header {
+    padding: 30px 0px 95px 0px;
+}
+
+.header__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #1C5BFF;
+}
+
+.header__info {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    color: #FFFFFF;
+}
+
+.name {
+    border-bottom: 4px solid #1C5BFF;
+    font-family: 'Sora', sans-serif;
+    font-weight: 700;
+}
+
+.header__bottom {
+    display: flex;
+    justify-content: center;
+    margin-top: 16.5px;
+}
+
+.menu__list {
+    display: flex;
+}
+
+.menu__link {
+    padding: 16.5px 32.5px;
+    transition: 0.6s all ease;
+}
+
+.menu__link:hover {
+    background-color: #1C5BFF;
+}
+
+/* main */
+
+.hero {
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding-bottom: 173px;
+}
+
+.hero__title {
+    font-family: 'Sora', sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+}
+
+.hero__subtitle {
+    max-width: 590px;
+}
+
+.hero__title_element {
+    border-bottom: 8px solid #1C5BFF;
+}
+
+.skills {
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    padding: 64px 0;
+}
+
+.skills__title {
+    border-bottom: 4px solid #252323;
+}
+
+/* heading */
+
+.works {
+    padding: 64px 0 135px 0;
+}
+
+.works__heading {
+    color:#FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    padding-bottom: 48px;
+}
+
+.works__examples {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    color: #FFFFFF;
+    padding-bottom: 48px;
+}
+
+.work__item {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+}
+
+.work__example {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.work__example_title {
+    border: none;
+    padding: 0;
+}
+
+.more {
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    align-items: center;
+    gap: 33px;
+}
+
+/* contacts */
+
+.contacts {
+    padding-bottom: 142px;
+}
+
+.contacts__title {
+    margin: 0px auto 41px auto;
+    width: fit-content;
+}
+
+.contacts__block {
+    display: flex;
+    gap: 48px;
+    align-items: center;
+}
+
+.contacts__form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 600px;
+}
+
+.contacts__form_input {
+    height: 48px;
+}
+
+.contacts__form_textarea {
+    padding-top: 16px;
+    height: 189px;
+    resize: none;
+}
+
+.contacts__form_input,
+.contacts__form_textarea,
+.contacts__form_button {
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    padding: 16px 0 16px 24px;
+}
+
+.contacts__form_button {
+    margin-top: 28px;
+    padding: 16px 0;
+    color: #FFFFFF;
+    background-color: #1C5BFF;
+    cursor: pointer;
+}
+
+.contacts__info {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.contact__info_block {
+    display: flex;
+    gap: 24px;
+}
+
+.contact__info_icon {
+    background-color: #FFFFFF;
+    padding: 19px 23px;
+    border-radius: 16px;
+}
+
+.contact__text {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.contact__text_title {
+    color: #1C5BFF;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.contact__text_subtitle {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+/* footer */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 0;
+    color: #FFFFFF;
+}
+
+.footer__title {
+    font-family: 'Sora', sans-serif;
+    font-weight: 700;
+    border-bottom: 4px solid #252323;
+}
+
+.footer__icons {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
